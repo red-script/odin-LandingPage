@@ -1,0 +1,147 @@
+body {
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 82px;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+ul {
+    list-style-type: none;
+    gap: 16px;
+    display: flex;
+    flex-direction: row;
+}
+.container1 {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+#c12 {
+    color: #e5e7eb;
+    margin-top: 0;
+    font-size: 18px;
+}
+.box1 {
+    width: 350px;
+    margin-right: 0;
+}
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.im1,
+.im2,
+.im3,
+.im4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+.boxing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.container3 {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quoter {
+    width: 650px;
+    height: 200px;
+    font-size: 32px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+.quoted {
+    display: flex;
+    justify-content: end;
+    margin-top: 0;
+}
+
+.container4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    padding: 10px 50px;
+    background-color: #3b82f6;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+h5 {
+    margin-bottom: 0;
+}
+.call{
+    margin-top: 0;
+}
+
+.inbox2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    color: white;
+    background-color: #3b82f6;
+    /* background-repeat: no-repeat;
+    overflow: hidden; */
+    border-radius: 5px;
+    width: 80px;
+}
+
+.footer {
+    color: #e5e7eb;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.container1,
+.container2,
+.container3,
+.container4 {
+    flex-grow: 1;
+}
